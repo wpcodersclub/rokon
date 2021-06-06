@@ -1,0 +1,423 @@
+/*
+-----------------------------------------
+WPC Portfolio
+-----------------------------------------
+*/
+.wpc-portfolio-title {
+	text-align: center;
+   h2 {
+  	border: 1px dashed #d5d5d5;
+  	padding: 10px;
+  	background-color: #f9f9f9;
+  	text-transform: uppercase;
+    cursor: pointer;
+		margin-top: 0;
+    @include animate(color, 320ms);
+		&::before,
+		&::after{
+			content: '~';
+			position: relative;
+			display: inline-block;
+		}
+
+		&:before{margin-right:10px}
+		&:after{margin-left:10px;}
+  }
+  h2:hover{
+    color:#074e72;
+  }
+}
+.wpc-portfolio-item{
+	box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 18%);
+  margin-bottom: 15px;
+  .wpc-portfolio-item-img{
+      padding: 6px;
+      margin: auto;
+      vertical-align: middle;
+      display: inline;
+    }
+  .wpc-portfolio-item-details {
+  	background-color: #F6F6F6;
+    padding: 19px;
+      h1{
+				margin-top: 0;
+				font-size: 17px;
+				font-weight: bold;
+				color: #069;
+				cursor: pointer;
+      }
+  }
+  .wpc-visit-link{
+    width: 100%;
+    height: 210px;
+    p {
+      font-size: 20px;
+    }
+    a{
+      font-size: 17px;
+    }
+  }
+}
+
+
+/*
+-------------------------
+WPC About Me
+-------------------------
+*/
+.wpc-about-title {
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	color: #57595b;
+	font-weight: bold;
+	&::before,
+	&::after{
+			content: '~';
+			display: inline-block;
+			position: relative;
+	}
+	&:before{margin-right:10px}
+	&:after{margin-left:10px;}
+}
+.wpc-icons  {
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #faf9f9;
+	@include animate(box-shadow, 320ms);
+	&:hover{
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	}
+	.wpc-icon-box {
+			width: 80px;
+			height: 80px;
+			margin: auto;
+			background-color: #f3f3f5;
+			padding: 17px;
+			border-radius: 50%;
+		}
+		 h3{
+			 font-size: 23px;
+			 font-weight: bold;
+			 color: #069;
+		}
+		p{
+			font-size: 16px;
+			color: #333;
+		}
+}
+
+/*
+---------------------------------
+Skills
+---------------------------------
+*/
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #069;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: #069;
+}
+.bar.back::before{
+  background-color: #069;
+}
+
+.bar.learning::before{
+  width: calc(20% - 10px);
+}
+.bar.basic::before{
+  width: calc(40% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(70% - 10px);
+}
+.bar.advanced::before{
+  width: calc(85% - 10px);
+}
+.bar.expert::before{
+  width: calc(100% - 10px);
+}
+
+
+/*
+---------------------------------
+WPC Intro About Me
+---------------------------------
+*/
+.wpc-bio-box{
+	h2{
+		font-size: 24px;
+		font-weight: #5e5e5e;
+	}
+	p{
+		font-size: 15px;
+		font-weight: #5e5e5e;
+	}
+	a{
+		color:#069;
+	}
+	.wpc-bio-img-box {
+		width: 100%;
+		height: 200px;
+		img{
+			width: 200px;
+			height: 100%;
+			object-fit: cover;
+			object-position: top center;
+			border-radius: 100%;
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// #main-navbar{
+// 	display: grid;
+// 	grid-template-columns:repeat(auto-fit, minmax(60px, 1fr));
+// 	grid-gap: 10px;
+// 	text-align: center;
+// 	background-color: var(--primary);
+// }
+// #main-navbar div{
+// 	padding: 10px;
+// }
+// #main-navbar div a {
+// 	text-decoration: none;
+// 	color:var(--white);
+// 	font-family: 'Lemonada', cursive;
+// }
+/* Banner */
+// .static-banner{
+// 	width: 100%;
+// 	height: 400px;
+// 	background-image:url(../images/banner.jpg);
+// 	background-size: cover;
+// 	background-position: center center;
+// 	background-repeat: no-repeat;
+// 	position: relative;
+// }
+// .banner-overlay{
+// 	position: absolute;
+// 	top: 0;
+// 	right: 0;
+// 	left: 0;
+// 	bottom: 0;
+// 	background-color:rgba(0,0,0,.6);
+// }
+// .introduction{
+// 	width: 70%;
+// 	margin:0 auto;
+// 	height: 100%;
+// }
+// .introduction p{
+// 	color:var(--white);
+// 	font-size: 1.2em;
+// }
+// .table{
+// 	display: table;
+// 	width: 100%;
+// 	height: 100%;
+// }
+// .table-cell{
+// 	display: table-cell;
+// 	width: 100%;
+// 	height: 100%;
+// 	vertical-align: middle;
+// }
+// .portfolio-section{
+// 	display: grid;
+// 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+// 	grid-gap: 10px;
+// }
+// .space{
+// 	margin-left: 15px;
+// 	margin-right: 15px;
+// }
+// .image-overlay{
+// 	position: absolute;
+// 	top: 0;
+// 	right: 0;
+// 	left: 0;
+// 	bottom: 0;
+// 	background-color:rgba(0,0,0,.6);
+// 	text-align:center;
+// 	width: 100%;
+// 	height: 100%;
+// 	cursor: pointer;
+// 	@include animate(transform, 640ms);
+// 	@include transform(translateY(260px));
+//
+// }
+// .item {
+// 	position: relative;
+// 	transition: .2s;
+// 	background-color: var(--white);
+// 	box-shadow: var(--shadow);
+// 	overflow: hidden;
+// 	height: 250px;
+// 	img{
+// 		width: 100%;
+// 		overflow: hidden;
+// 		height: 250px;
+// 		object-fit: cover;
+// 		transform: scale(1);
+// 		cursor: pointer;
+// 	}
+// 	&:hover,
+// 	&:focus{
+// 		.image-overlay{
+// 			@include transform(translateY(0px));
+// 		}
+// 	}
+//
+// }
+//
+//
+// .image-overlay a{
+// 	 color: var(--white);
+//     text-align: center;
+//     text-decoration: none;
+//     padding: 6px 15px;
+//     background-color: var(--primary);
+//     overflow: hidden;
+// }
+// .item:hover .image-overlay{
+// 	left: 0;
+// }
+// /* Hire me */
+// section#hire_me {
+//     background: #fff;
+// }
+// #hire_me h2{
+//     padding: 10px;
+//     margin-bottom: 0;
+// }
+// .market_profile {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     height: 300px;
+// }
+// .market1{
+// 	background-color: #002E3E;
+// 	text-align: center;
+// 	border-bottom: 1px solid #D5D5D5;
+//     border-right: 1px solid #D5D5D5;
+//     a{
+//         text-decoration: none;
+//         color: #fff;
+//         font-size: 30px;
+//         text-align: center;
+//         padding: 8px 17px;
+//         border: 2px solid #fff;
+//     }
+// }
+// .market2{
+// 	background-color: #00434F;
+// 	text-align: center;
+//     a{
+//         text-decoration: none;
+//         color: #fff;
+//         font-size: 30px;
+//         text-align: center;
+//         padding: 8px 17px;
+//         border: 2px solid #fff;
+//     }
+// }
+//
+// /* Contact */
+// #contact{
+// 	width: 100%;
+// 	background-color: #00434F;
+// 	height: 200px;
+// 	text-align: center;
+//     a{
+//         color:#fff;
+//         font-size: 20px;
+//         text-align: center;
+//         text-align: center;
+//         text-decoration: none;
+//         text-transform: uppercase;
+//     }
+// }
+//
+// @media only screen and (max-width:480px){
+// 	.introduction{
+// 		width: 90%;
+// 		margin:0 auto;
+// 	}
+// 	.introduction p{
+// 		font-size: 1em;
+// 	}
+// 	#main-navbar {
+// 	    display: grid;
+// 	    grid-template-columns:  1fr 1fr;
+// 	    grid-gap: 0;
+// 	}
+// 	#main-navbar div a{
+// 		font-size: 13px;
+// 	}
+// }

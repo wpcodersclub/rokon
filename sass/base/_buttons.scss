@@ -1,0 +1,208 @@
+/*
+------------------------
+WPC BTN
+------------------------
+*/
+.wpc-btn {
+  display: inline-block;
+  padding: 7px 12px;
+  font-weight: normal;
+  font-family: 'Rajdhani', sans-serif;
+  color: #838383;
+}
+.wpc-btn-default-rounded,
+.wpc-btn-success-rounded,
+.wpc-btn-danger-rounded,
+.wpc-btn-warning-rounded,
+.wpc-btn-info-rounded,
+.wpc-btn-paste-rounded,
+.wpc-btn-blue-rounded,
+.wpc-btn-default-square,
+.wpc-btn-success-square,
+.wpc-btn-danger-square,
+.wpc-btn-warning-square,
+.wpc-btn-info-square,
+.wpc-btn-paste-square,
+.wpc-btn-blue-square{
+  border:none;
+  &:focus{
+    outline: none;
+    border-color: #66afe9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+  }
+}
+/*
+-------------------------------
+wpc rounded button
+-------------------------------
+*/
+.wpc-btn-default-rounded{
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 6px;;
+  @include animate(background-color, 320ms);
+  color: #333;
+  &:hover{
+    background-color: #e1e1e1;
+    color: #fff;
+  }
+}
+.wpc-btn-success-rounded {
+  background-color: #178633;
+  cursor: pointer;
+  border-radius: 6px;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #1c692f;
+  }
+}
+
+.wpc-btn-danger-rounded {
+  background-color: #861717;
+  cursor: pointer;
+  border-radius: 6px;;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #c15353;
+  }
+}
+.wpc-btn-warning-rounded {
+  background-color: #d85f24;
+  cursor: pointer;
+  border-radius: 6px;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #974015;
+  }
+}
+.wpc-btn-info-rounded {
+  background-color: #24c7d8;
+  cursor: pointer;
+  border-radius: 6px;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #15929f;
+  }
+}
+.wpc-btn-paste-rounded {
+  background-color: #15aa87;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #D3D3D3;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #0d8166;
+  }
+}
+.wpc-btn-blue-rounded {
+  background-color: #069;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #D3D3D3;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #074e72;
+  }
+}
+.wpc-btn-link {
+  background-color: transparent;
+  cursor: pointer;
+  transition: color 0.5s ease;
+  color: #333333;
+  @include animate(background-color, 320ms);
+    &:hover{
+      color: #074e72;
+    }
+}
+.wpc-btn-social{
+  background-color: #1d1d1d;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #D3D3D3;
+  transition: background 0.5s ease;
+  color: #fff;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #074e72;
+  }
+}
+/*
+-------------------------------
+wpc square button
+-------------------------------
+*/
+.wpc-btn-default-square{
+  background-color: #fff;
+  cursor: pointer;
+  @include animate(background-color, 320ms);
+  color: #333;
+  &:hover{
+    background-color: #e1e1e1;
+    color:#fff;
+  }
+}
+.wpc-btn-success-square {
+  background-color: #178633;
+  cursor: pointer;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #1c692f;
+  }
+}
+
+.wpc-btn-danger-square {
+  background-color: #861717;
+  cursor: pointer;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #c15353;
+  }
+}
+.wpc-btn-warning-square {
+  background-color: #d85f24;
+  cursor: pointer;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #974015;
+  }
+}
+.wpc-btn-info-square {
+  background-color: #24c7d8;
+  cursor: pointer;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #15929f;
+  }
+}
+.wpc-btn-paste-square {
+  background-color: #15aa87;
+  cursor: pointer;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #0d8166;
+  }
+}
+
+.wpc-btn-blue-square {
+  background-color: #069;
+  cursor: pointer;
+  transition: background 0.5s ease;
+  @include animate(background-color, 320ms);
+  color: #fff;
+  &:hover{
+    background-color: #074e72;
+  }
+}

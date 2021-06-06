@@ -1,0 +1,536 @@
+/*
+---------------------------------------
+Colors CSS
+---------------------------------------
+*/
+
+$primary: #FFFFFF;
+$dark: #000000;
+$blue: #1a75bd;
+$dark-blue: #145080;
+$green: #009245;
+$light-green:#0caa53;
+$red: #ad3c10;
+$light-red: #bc3f0d;
+$gray: #efefef;
+$dark-gray: #333333;
+$light-gray: #a2a1a1;
+$gray-white:#D3D3D3;
+
+
+/*
+----------------------
+Text Alignment
+----------------------
+*/
+.wpc-text-center{
+  text-align: center!important;
+}
+.wpc-text-right{
+  text-align: right!important;
+}
+.wpc-text-left{
+  text-align: left!important;
+}
+.wpc-txt-white{
+  color:$primary;
+}
+.wpc-txt-black{
+  color:$dark;
+}
+
+
+/*
+---------------------------------------
+Margin
+---------------------------------------
+*/
+.wpc-mr-auto{
+  margin:0 auto !important;
+}
+.wpc-mr-right{
+  float:right!important;
+}
+.wpc-mr-left{
+  float:left!important;
+}
+.wpc-mrg-none{
+  margin:0!important;
+}
+.wpc-pd-none{
+  padding: 0!important;
+}
+
+/*
+-----------------------
+Margin in Pixel - TOP
+-----------------------
+*/
+
+.wpc-mt-1{margin-top: 1px;}
+.wpc-mt-1{margin-top: 1px;}
+.wpc-mt-2{ margin-top: 2px;}
+.wpc-mt-3{margin-top: 3px;}
+.wpc-mt-4{margin-top: 4px;}
+.wpc-mt-5{margin-top: 5px;}
+.wpc-mt-6{ margin-top: 6px;}
+.wpc-mt-7{margin-top: 7px;}
+.wpc-mt-8{ margin-top: 8px;}
+.wpc-mt-9{margin-top: 9px;}
+.wpc-mt-10{ margin-top: 10px;}
+.wpc-mt-11{margin-top: 11px;}
+.wpc-mt-12{margin-top: 12px;}
+.wpc-mt-13{margin-top: 13px;}
+.wpc-mt-14{margin-top: 14px;}
+.wpc-mt-15{margin-top: 15px;}
+.wpc-mt-16{margin-top: 16px;}
+.wpc-mt-17{margin-top: 17px;}
+.wpc-mt-18{margin-top: 18px;}
+.wpc-mt-19{margin-top: 19px;}
+.wpc-mt-20{margin-top: 20px;}
+/*
+------------------------------
+Margin in Pixel - Bottom
+------------------------------
+*/
+
+.wpc-mb-1{margin-top: 1px;}
+.wpc-mb-2{margin-top: 2px;}
+.wpc-mb-3{margin-top: 3px;}
+.wpc-mb-4{margin-top: 4px;}
+.wpc-mb-5{margin-top: 5px;}
+.wpc-mb-6{margin-top: 6px;}
+.wpc-mb-7{margin-top: 7px;}
+.wpc-mb-8{margin-top: 8px;}
+.wpc-mb-9{margin-top: 9px;}
+.wpc-mb-10{margin-top: 10px;}
+.wpc-mb-11{margin-top: 11px;}
+.wpc-mb-12{margin-top: 12px;}
+.wpc-mb-13{margin-top: 13px;}
+.wpc-mb-14{margin-top: 14px;}
+.wpc-mb-15{margin-top: 15px;}
+.wpc-mb-16{margin-top: 16px;}
+.wpc-mb-17{margin-top: 17px;}
+.wpc-mb-18{margin-top: 18px;}
+.wpc-mb-19{margin-top: 19px;}
+.wpc-mb-20{margin-top: 20px;}
+
+/*
+------------------------------
+Margin in Pixel - Right
+------------------------------
+*/
+
+.wpc-mr-1{margin-top: 1px;}
+.wpc-mr-2{margin-top: 2px;}
+.wpc-mr-3{margin-top: 3px;}
+.wpc-mr-4{margin-top: 4px;}
+.wpc-mr-5{margin-top: 5px;}
+.wpc-mr-6{margin-top: 6px;}
+.wpc-mr-7{margin-top: 7px;}
+.wpc-mr-8{margin-top: 8px;}
+.wpc-mr-9{margin-top: 9px;}
+.wpc-mr-10{margin-top: 10px;}
+.wpc-mr-11{margin-top: 11px;}
+.wpc-mr-12{margin-top: 12px;}
+.wpc-mr-13{margin-top: 13px;}
+.wpc-mr-14{margin-top: 14px;}
+.wpc-mr-15{margin-top: 15px;}
+.wpc-mr-16{margin-top: 16px;}
+.wpc-mr-17{margin-top: 17px;}
+.wpc-mr-18{margin-top: 18px;}
+.wpc-mr-19{margin-top: 19px;}
+.wpc-mr-20{margin-top: 20px;}
+
+
+/*
+------------------------------
+Margin in Pixel - Left
+------------------------------
+*/
+
+.wpc-ml-1{margin-top: 1px;}
+.wpc-ml-2{margin-top: 2px;}
+.wpc-ml-3{margin-top: 3px;}
+.wpc-ml-4{margin-top: 4px;}
+.wpc-ml-5{margin-top: 5px;}
+.wpc-ml-6{margin-top: 6px;}
+.wpc-ml-7{margin-top: 7px;}
+.wpc-ml-8{margin-top: 8px;}
+.wpc-ml-9{margin-top: 9px;}
+.wpc-ml-10{margin-top: 10px;}
+.wpc-ml-11{margin-top: 11px;}
+.wpc-ml-12{margin-top: 12px;}
+.wpc-ml-13{margin-top: 13px;}
+.wpc-ml-14{margin-top: 14px;}
+.wpc-ml-15{margin-top: 15px;}
+.wpc-ml-16{margin-top: 16px;}
+.wpc-ml-17{margin-top: 17px;}
+.wpc-ml-18{margin-top: 18px;}
+.wpc-ml-19{margin-top: 19px;}
+.wpc-ml-20{margin-top: 20px;}
+
+
+/*
+------------------------------
+Margin in Percentage - TOP
+------------------------------
+*/
+
+.wpc-mtp-1{margin-top: 1%;}
+.wpc-mtp-2{margin-top: 2%;}
+.wpc-mtp-3{margin-top: 3%;}
+.wpc-mtp-4{margin-top: 4%;}
+.wpc-mtp-5{margin-top: 5%;}
+.wpc-mtp-6{margin-top: 6%;}
+.wpc-mtp-7{margin-top: 7%;}
+.wpc-mtp-8{margin-top: 8%;}
+.wpc-mtp-9{margin-top: 9%;}
+.wpc-mtp-10{margin-top: 10%;}
+.wpc-mtp-11{margin-top: 11%;}
+.wpc-mtp-12{margin-top: 12%;}
+.wpc-mtp-13{margin-top: 13%;}
+.wpc-mtp-14{margin-top: 14%;}
+.wpc-mtp-15{margin-top: 15%;}
+.wpc-mtp-16{margin-top: 16%;}
+.wpc-mtp-17{margin-top: 17%;}
+.wpc-mtp-18{margin-top: 18%;}
+.wpc-mtp-19{margin-top: 19%;}
+.wpc-mtp-20{margin-top: 20%;}
+
+
+/*
+------------------------------
+Margin in Percentage - Bottom
+------------------------------
+*/
+
+.wpc-mbp-1{margin-top: 1%;}
+.wpc-mbp-2{margin-top: 2%;}
+.wpc-mbp-3{margin-top: 3%;}
+.wpc-mbp-4{margin-top: 4%;}
+.wpc-mbp-5{margin-top: 5%;}
+.wpc-mbp-6{margin-top: 6%;}
+.wpc-mbp-7{margin-top: 7%;}
+.wpc-mbp-8{margin-top: 8%;}
+.wpc-mbp-9{margin-top: 9%;}
+.wpc-mbp-10{margin-top: 10%;}
+.wpc-mbp-11{margin-top: 11%;}
+.wpc-mbp-12{margin-top: 12%;}
+.wpc-mbp-13{margin-top: 13%;}
+.wpc-mbp-14{margin-top: 14%;}
+.wpc-mbp-15{margin-top: 15%;}
+.wpc-mbp-16{margin-top: 16%;}
+.wpc-mbp-17{margin-top: 17%;}
+.wpc-mbp-18{margin-top: 18%;}
+.wpc-mbp-19{margin-top: 19%;}
+.wpc-mbp-20{margin-top: 20%;}
+
+
+
+/*
+------------------------------
+Margin in Percentage - Left
+------------------------------
+*/
+
+.wpc-mlp-1{margin-top: 1%;}
+.wpc-mlp-2{margin-top: 2%;}
+.wpc-mlp-3{margin-top: 3%;}
+.wpc-mlp-4{margin-top: 4%;}
+.wpc-mlp-5{margin-top: 5%;}
+.wpc-mlp-6{margin-top: 6%;}
+.wpc-mlp-7{margin-top: 7%;}
+.wpc-mlp-8{margin-top: 8%;}
+.wpc-mlp-9{margin-top: 9%;}
+.wpc-mlp-10{margin-top: 10%;}
+.wpc-mlp-11{margin-top: 11%;}
+.wpc-mlp-12{margin-top: 12%;}
+.wpc-mlp-13{margin-top: 13%;}
+.wpc-mlp-14{margin-top: 14%;}
+.wpc-mlp-15{margin-top: 15%;}
+.wpc-mlp-16{margin-top: 16%;}
+.wpc-mlp-17{margin-top: 17%;}
+.wpc-mlp-18{margin-top: 18%;}
+.wpc-mlp-19{margin-top: 19%;}
+.wpc-mlp-20{margin-top: 20%;}
+
+
+/*
+------------------------------
+Margin in Percentage - Right
+------------------------------
+*/
+
+.wpc-mrp-1{margin-top: 1%;}
+.wpc-mrp-2{margin-top: 2%;}
+.wpc-mrp-3{margin-top: 3%;}
+.wpc-mrp-4{margin-top: 4%;}
+.wpc-mrp-5{margin-top: 5%;}
+.wpc-mrp-6{margin-top: 6%;}
+.wpc-mrp-7{margin-top: 7%;}
+.wpc-mrp-8{margin-top: 8%;}
+.wpc-mrp-9{margin-top: 9%;}
+.wpc-mrp-10{margin-top: 10%;}
+.wpc-mrp-11{margin-top: 11%;}
+.wpc-mrp-12{margin-top: 12%;}
+.wpc-mrp-13{margin-top: 13%;}
+.wpc-mrp-14{margin-top: 14%;}
+.wpc-mrp-15{margin-top: 15%;}
+.wpc-mrp-16{margin-top: 16%;}
+.wpc-mrp-17{margin-top: 17%;}
+.wpc-mrp-18{margin-top: 18%;}
+.wpc-mrp-19{margin-top: 19%;}
+.wpc-mrp-20{margin-top: 20%;}
+
+
+/*
+------------------------------
+Padding in Pixel - Left
+------------------------------
+*/
+
+.wpc-pl-1{margin-top: 1px;}
+.wpc-pl-2{margin-top: 2px;}
+.wpc-pl-3{margin-top: 3px;}
+.wpc-pl-4{margin-top: 4px;}
+.wpc-pl-5{margin-top: 5px;}
+.wpc-pl-6{margin-top: 6px;}
+.wpc-pl-7{margin-top: 7px;}
+.wpc-pl-8{margin-top: 8px;}
+.wpc-pl-9{margin-top: 9px;}
+.wpc-pl-10{margin-top: 10px;}
+.wpc-pl-11{margin-top: 11px;}
+.wpc-pl-12{margin-top: 12px;}
+.wpc-pl-13{margin-top: 13px;}
+.wpc-pl-14{margin-top: 14px;}
+.wpc-pl-15{margin-top: 15px;}
+.wpc-pl-16{margin-top: 16px;}
+.wpc-pl-17{margin-top: 17px;}
+.wpc-pl-18{margin-top: 18px;}
+.wpc-pl-19{margin-top: 19px;}
+.wpc-pl-20{margin-top: 20px;}
+
+
+/*
+------------------------------
+Padding in Pixel - Right
+------------------------------
+*/
+
+.wpc-pr-1{margin-top: 1px;}
+.wpc-pr-2{margin-top: 2px;}
+.wpc-pr-3{margin-top: 3px;}
+.wpc-pr-4{margin-top: 4px;}
+.wpc-pr-5{margin-top: 5px;}
+.wpc-pr-6{margin-top: 6px;}
+.wpc-pr-7{margin-top: 7px;}
+.wpc-pr-8{margin-top: 8px;}
+.wpc-pr-9{margin-top: 9px;}
+.wpc-pr-10{margin-top: 10px;}
+.wpc-pr-11{margin-top: 11px;}
+.wpc-pr-12{margin-top: 12px;}
+.wpc-pr-13{margin-top: 13px;}
+.wpc-pr-14{margin-top: 14px;}
+.wpc-pr-15{margin-top: 15px;}
+.wpc-pr-16{margin-top: 16px;}
+.wpc-pr-17{margin-top: 17px;}
+.wpc-pr-18{margin-top: 18px;}
+.wpc-pr-19{margin-top: 19px;}
+.wpc-pr-20{margin-top: 20px;}
+
+
+/*
+------------------------------
+Padding in Pixel - Top
+------------------------------
+*/
+
+.wpc-pt-1{margin-top: 1px;}
+.wpc-pt-2{margin-top: 2px;}
+.wpc-pt-3{margin-top: 3px;}
+.wpc-pt-4{margin-top: 4px;}
+.wpc-pt-5{margin-top: 5px;}
+.wpc-pt-6{margin-top: 6px;}
+.wpc-pt-7{margin-top: 7px;}
+.wpc-pt-8{margin-top: 8px;}
+.wpc-pt-9{margin-top: 9px;}
+.wpc-pt-10{margin-top: 10px;}
+.wpc-pt-11{margin-top: 11px;}
+.wpc-pt-12{margin-top: 12px;}
+.wpc-pt-13{margin-top: 13px;}
+.wpc-pt-14{margin-top: 14px;}
+.wpc-pt-15{margin-top: 15px;}
+.wpc-pt-16{margin-top: 16px;}
+.wpc-pt-17{margin-top: 17px;}
+.wpc-pt-18{margin-top: 18px;}
+.wpc-pt-19{margin-top: 19px;}
+.wpc-pt-20{margin-top: 20px;}
+
+
+/*
+------------------------------
+Padding in Pixel - Bottom
+------------------------------
+*/
+
+.wpc-pb-1{margin-top: 1px;}
+.wpc-pb-2{margin-top: 2px;}
+.wpc-pb-3{margin-top: 3px;}
+.wpc-pb-4{margin-top: 4px;}
+.wpc-pb-5{margin-top: 5px;}
+.wpc-pb-6{margin-top: 6px;}
+.wpc-pb-7{margin-top: 7px;}
+.wpc-pb-8{margin-top: 8px;}
+.wpc-pb-9{margin-top: 9px;}
+.wpc-pb-10{margin-top: 10px;}
+.wpc-pb-11{margin-top: 11px;}
+.wpc-pb-12{margin-top: 12px;}
+.wpc-pb-13{margin-top: 13px;}
+.wpc-pb-14{margin-top: 14px;}
+.wpc-pb-15{margin-top: 15px;}
+.wpc-pb-16{margin-top: 16px;}
+.wpc-pb-17{margin-top: 17px;}
+.wpc-pb-18{margin-top: 18px;}
+.wpc-pb-19{margin-top: 19px;}
+.wpc-pb-20{margin-top: 20px;}
+
+/*
+------------------------------
+Padding in Percentage - Left
+------------------------------
+*/
+
+.wpc-plp-1{margin-top: 1%}
+.wpc-plp-2{margin-top: 2%}
+.wpc-plp-3{margin-top: 3%}
+.wpc-plp-4{margin-top: 4%}
+.wpc-plp-5{margin-top: 5%}
+.wpc-plp-6{margin-top: 6%}
+.wpc-plp-7{margin-top: 7%}
+.wpc-plp-8{margin-top: 8%}
+.wpc-plp-9{margin-top: 9%}
+.wpc-plp-10{margin-top: 10%}
+.wpc-plp-11{margin-top: 11%}
+.wpc-plp-12{margin-top: 12%}
+.wpc-plp-13{margin-top: 13%}
+.wpc-plp-14{margin-top: 14%}
+.wpc-plp-15{margin-top: 15%}
+.wpc-plp-16{margin-top: 16%}
+.wpc-plp-17{margin-top: 17%}
+.wpc-plp-18{margin-top: 18%}
+.wpc-plp-19{margin-top: 19%}
+.wpc-plp-20{margin-top: 20%}
+
+
+/*
+------------------------------
+Padding in Percentage - Right
+------------------------------
+*/
+
+.wpc-prp-1{margin-top: 1%}
+.wpc-prp-2{margin-top: 2%}
+.wpc-prp-3{margin-top: 3%}
+.wpc-prp-4{margin-top: 4%}
+.wpc-prp-5{margin-top: 5%}
+.wpc-prp-6{margin-top: 6%}
+.wpc-prp-7{margin-top: 7%}
+.wpc-prp-8{margin-top: 8%}
+.wpc-prp-9{margin-top: 9%}
+.wpc-prp-10{margin-top: 10%}
+.wpc-prp-11{margin-top: 11%}
+.wpc-prp-12{margin-top: 12%}
+.wpc-prp-13{margin-top: 13%}
+.wpc-prp-14{margin-top: 14%}
+.wpc-prp-15{margin-top: 15%}
+.wpc-prp-16{margin-top: 16%}
+.wpc-prp-17{margin-top: 17%}
+.wpc-prp-18{margin-top: 18%}
+.wpc-prp-19{margin-top: 19%}
+.wpc-prp-20{margin-top: 20%}
+
+/*
+------------------------------
+Padding in Percentage - Top
+------------------------------
+*/
+
+.wpc-ptp-1{margin-top: 1%}
+.wpc-ptp-2{margin-top: 2%}
+.wpc-ptp-3{margin-top: 3%}
+.wpc-ptp-4{margin-top: 4%}
+.wpc-ptp-5{margin-top: 5%}
+.wpc-ptp-6{margin-top: 6%}
+.wpc-ptp-7{margin-top: 7%}
+.wpc-ptp-8{margin-top: 8%}
+.wpc-ptp-9{margin-top: 9%}
+.wpc-ptp-10{margin-top: 10%}
+.wpc-ptp-11{margin-top: 11%}
+.wpc-ptp-12{margin-top: 12%}
+.wpc-ptp-13{margin-top: 13%}
+.wpc-ptp-14{margin-top: 14%}
+.wpc-ptp-15{margin-top: 15%}
+.wpc-ptp-16{margin-top: 16%}
+.wpc-ptp-17{margin-top: 17%}
+.wpc-ptp-18{margin-top: 18%}
+.wpc-ptp-19{margin-top: 19%}
+.wpc-ptp-20{margin-top: 20%}
+/*
+------------------------------
+Padding in Percentage - Bottom
+------------------------------
+*/
+
+.wpc-pbp-1{margin-top: 1%}
+.wpc-pbp-2{margin-top: 2%}
+.wpc-pbp-3{margin-top: 3%}
+.wpc-pbp-4{margin-top: 4%}
+.wpc-pbp-5{margin-top: 5%}
+.wpc-pbp-6{margin-top: 6%}
+.wpc-pbp-7{margin-top: 7%}
+.wpc-pbp-8{margin-top: 8%}
+.wpc-pbp-9{margin-top: 9%}
+.wpc-pbp-10{margin-top: 10%}
+.wpc-pbp-11{margin-top: 11%}
+.wpc-pbp-12{margin-top: 12%}
+.wpc-pbp-13{margin-top: 13%}
+.wpc-pbp-14{margin-top: 14%}
+.wpc-pbp-15{margin-top: 15%}
+.wpc-pbp-16{margin-top: 16%}
+.wpc-pbp-17{margin-top: 17%}
+.wpc-pbp-18{margin-top: 18%}
+.wpc-pbp-19{margin-top: 19%}
+.wpc-pbp-20{margin-top: 20%}
+
+/*
+----------------------------------
+WPC Image Responsive
+----------------------------------
+*/
+.wpc-image-resp {
+  width: 100%;
+  height: 200px;
+  object-position: top;
+  object-fit: cover;
+  overflow: hidden;
+  display: block;
+}
+
+/*
+----------------------------------
+WPC Vertical Align
+----------------------------------
+*/
+.wpc-vertical-align{
+  display: table;
+  width: 100%;
+  height: 100%;
+  .wpc-vertical-align-cell{
+    display:table-cell;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+  }
+}

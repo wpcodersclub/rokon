@@ -1,0 +1,36 @@
+/*
+------------------------------
+WPC Card Table of Contents -
+-- WPC Card Content
+---- WPC Card Header
+---- WPC Card Body
+---- WPC Card Body Summary
+---- WPC Card Footer
+---- WPC Card Footer Summary
+----- WPC Card Footer Element
+------------------------------
+*/
+.wpc-card-content{
+   background-color: #fff;
+    padding: 6px;
+    overflow: hidden;
+    border-radius: 6px;
+    margin:10px 0;
+    @include animate(box-shadow, 320ms);
+    border: 2px solid #F8F8F8;
+    &:hover,
+    &:focus{
+      @extend %wpc-box-shadow;
+    }
+  .wpc-card{
+    .wpc-card-body{
+      .wpc-card-body-summary{
+        p{
+          font-family: 'Rajdhani', sans-serif;
+          font-weight: 400;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
